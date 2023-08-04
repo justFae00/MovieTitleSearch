@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/21e49bdcfc.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inika&display=swap"
+      rel="stylesheet"
+    />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <p id="title">Movie App</p>
+      <a
+        href="https://github.com/justFae00"
+        id="git"
+        target="_blank"
+        data-hover="Check out my GitHub"
+      >
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </nav>
+
+    <div class="search-container">
+      <input id="search-box" type="text" placeholder="search movies..." />
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+
+    <div id="loading" style="display: none"></div>
+
+    <p id="no-result"></p>
+
+    <div class="movies-container"></div>
+  </body>
+</html>
