@@ -1,11 +1,11 @@
-# Movie Title Search App
+# Movie Title Search App using API
 
 A simple movie app in html, css and javascript to search through over 390,000 movie titles and visit its web page on IMDB. This project was inspired by [html-css-javascript-projects](https://github.com/solygambas/html-css-javascript-projects/tree/main) repository.
 
 API from [OMDb API](https://www.omdbapi.com/).
 
 Abilities:
-  1. Process input and provide additional information about the movie (poster, relase year, genres, director, plot, ratings...).
+  1. Process input and provide additional information about the movie (poster, release year, genres, director, plot, ratings...).
   2. By clicking on a movie poster, you will be directed to its IMDB page.
   3. Errors are handled.
   4. (Additional visual properties) fixed searchbar, loading bar, show description on hover, show message on hover, ...
